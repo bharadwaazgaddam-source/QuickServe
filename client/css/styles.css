@@ -64,3 +64,29 @@ body{
     font-size:50px;
     margin-bottom:20px;
 }
+.step-card{
+    background:#ffffff;
+    border-radius:15px;
+    padding:30px 20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    transition:0.3s;
+    height:100%;
+}
+
+.step-card:hover{
+    transform:translateY(-8px);
+}
+
+.step-number{
+    width:60px;
+    height:60px;
+    margin:0 auto 20px;
+    border-radius:50%;
+    background:#0F766E;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:24px;
+    font-weight:bold;
+}
