@@ -27,13 +27,40 @@ body{
     font-size:1.2rem;
 }
 .service-card{
-    background:white;
-    padding:30px;
-    border-radius:12px;
-    box-shadow:0 4px 12px rgba(0,0,0,0.1);
-    transition:0.3s;
+    background: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+
+    height: 220px;      /* Same height for all cards */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    transition: 0.3s;
 }
 
+
 .service-card:hover{
+    transform: translateY(-8px);
+}
+.services-section{
+    margin-top: 80px;
+}
+.feature-card{
+    background:#ffffff;
+    padding:30px 20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    transition:0.3s;
+    height:100%;
+}
+
+.feature-card:hover{
     transform:translateY(-8px);
+}
+
+.icon{
+    font-size:50px;
+    margin-bottom:20px;
 }
